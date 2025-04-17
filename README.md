@@ -26,8 +26,8 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 |:-:|:-:|
 |16,60,K7,4|[![16 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
 |24,60,K7,4|[![24 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
-|16,60,K7,2|[![16 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
-|24,60,K7,2|[![24 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
+|16,~20,K7,2|[![16 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
+|24,~20,K7,2|[![24 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
 
 # How to obtain the design?
 
@@ -49,12 +49,12 @@ Please contact via EMAIL: briansune@gmail.com
 
 # Project Resource
 
-|FPGA|Resources|
+|BPP,FPS,FPGA,Lanes|Resources|
 |:-:|:-:|
-|Kintex 7|<img src="./images/K7_16bpp_60fps_5p5inch_4lanes.png">|
-|Kintex 7|<img src="./images/K7_24bpp_60fps_5p5inch_4lanes.png">|
-|Kintex 7|<img src="./images/K7_16bpp_60fps_5p5inch_2lanes.png">|
-|Kintex 7|<img src="./images/K7_24bpp_60fps_5p5inch_2lanes.png">|
+|16,60,K7,4|<img src="./images/K7_16bpp_60fps_5p5inch_4lanes.png">|
+|24,60,K7,4|<img src="./images/K7_24bpp_60fps_5p5inch_4lanes.png">|
+|16,~20,K7,2|<img src="./images/K7_16bpp_20fps_5p5inch_2lanes.png">|
+|24,~20,K7,2|<img src="./images/K7_24bpp_20fps_5p5inch_2lanes.png">|
 
 # Project Heirachy
 
