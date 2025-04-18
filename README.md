@@ -22,6 +22,14 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 
 # Demonstration
 
+## HDMI Stream
+
+|BPP,FPS,FPGA,Lanes|Video|
+|:-:|:-:|
+|24,60,K7,4|[![24 BPP 60FPS](https://img.youtube.com/vi/gNPVJ9zyhSg/mqdefault.jpg)](https://youtube.com/shorts/gNPVJ9zyhSg)|
+
+## Test Patterns
+
 |BPP,FPS,FPGA,Lanes|Video|
 |:-:|:-:|
 |16,60,K7,4|[![16 BPP 60FPS](https://img.youtube.com/vi/ooolIPxbGRU/mqdefault.jpg)](https://youtube.com/video/ooolIPxbGRU)|
