@@ -24,10 +24,10 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 
 |BPP,FPS,FPGA,Lanes|Video|
 |:-:|:-:|
-|16,60,K7,4|[![16 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
-|24,60,K7,4|[![24 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
-|16,~20,K7,2|[![16 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
-|24,~20,K7,2|[![24 BPP 60FPS](https://img.youtube.com/vi/ /mqdefault.jpg)](https://youtube.com/video/ )|
+|16,60,K7,4|[![16 BPP 60FPS](https://img.youtube.com/vi/ooolIPxbGRU/mqdefault.jpg)](https://youtube.com/video/ooolIPxbGRU)|
+|24,60,K7,4|[![24 BPP 60FPS](https://img.youtube.com/vi/Dy1WmfXjy7k/mqdefault.jpg)](https://youtube.com/video/Dy1WmfXjy7k)|
+|16,~20,K7,2|[![16 BPP 60FPS](https://img.youtube.com/vi/M4pL_G6c2YQ/mqdefault.jpg)](https://youtube.com/video/M4pL_G6c2YQ)|
+|24,~20,K7,2|[![24 BPP 60FPS](https://img.youtube.com/vi/pZr_EDlvv0k/mqdefault.jpg)](https://youtube.com/video/pZr_EDlvv0k)|
 
 # How to obtain the design?
 
