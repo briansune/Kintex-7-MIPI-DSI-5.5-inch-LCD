@@ -30,12 +30,13 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 
 ## Test Patterns
 
-|BPP,FPS,FPGA,Lanes|Video|
+|BPP,FPS,FPGA,Lanes,I/F|Video|
 |:-:|:-:|
-|16,60,K7,4|[![16 BPP 60FPS](https://img.youtube.com/vi/ooolIPxbGRU/mqdefault.jpg)](https://youtube.com/video/ooolIPxbGRU)|
-|24,60,K7,4|[![24 BPP 60FPS](https://img.youtube.com/vi/Dy1WmfXjy7k/mqdefault.jpg)](https://youtube.com/video/Dy1WmfXjy7k)|
-|16,~20,K7,2|[![16 BPP 60FPS](https://img.youtube.com/vi/M4pL_G6c2YQ/mqdefault.jpg)](https://youtube.com/video/M4pL_G6c2YQ)|
-|24,~20,K7,2|[![24 BPP 60FPS](https://img.youtube.com/vi/pZr_EDlvv0k/mqdefault.jpg)](https://youtube.com/video/pZr_EDlvv0k)|
+|24, 60,K7,4,   IC |[![24 BPP 60FPS](https://img.youtube.com/vi/RNjhQVG8hZs/mqdefault.jpg)](https://youtube.com/video/RNjhQVG8hZs)|
+|16, 60,K7,4,R-Net |[![16 BPP 60FPS](https://img.youtube.com/vi/ooolIPxbGRU/mqdefault.jpg)](https://youtube.com/video/ooolIPxbGRU)|
+|24, 60,K7,4,R-Net |[![24 BPP 60FPS](https://img.youtube.com/vi/Dy1WmfXjy7k/mqdefault.jpg)](https://youtube.com/video/Dy1WmfXjy7k)|
+|16,~20,K7,2,R-Net |[![16 BPP 60FPS](https://img.youtube.com/vi/M4pL_G6c2YQ/mqdefault.jpg)](https://youtube.com/video/M4pL_G6c2YQ)|
+|24,~20,K7,2,R-Net |[![24 BPP 60FPS](https://img.youtube.com/vi/pZr_EDlvv0k/mqdefault.jpg)](https://youtube.com/video/pZr_EDlvv0k)|
 
 # How to obtain the design?
 
@@ -52,10 +53,15 @@ Please contact via EMAIL: briansune@gmail.com
 
 |Description|EVM|
 |:-:|:-:|
-|FPGA K7|<img src="./images/fpga_k7.JPG">|
-|4.5" LCD|<img src="./images/lcd_5p5inch_4lanes.JPG">|
+|FPGA K7-IC    |<img src="./images/fpga_k7_ic.JPG">|
+|FPGA K7-R-Net |<img src="./images/fpga_k7.JPG">|
+|4.5" LCD      |<img src="./images/lcd_5p5inch_4lanes.JPG">|
 
 # Project Resource
+
+Remarks A: From the above experiments and implementations, there are no major differences on MC20902 and resistor-network.
+
+Remarks B: The different between resistor-network and level-shifter is w/ or w/o tri-state on the FPGA out-buffer.
 
 |BPP,FPS,FPGA,Lanes|Resources|
 |:-:|:-:|
